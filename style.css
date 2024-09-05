@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: #000;
+  /* max-width: 1200px; */
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+/* 
+
+main color : #1f2937;
+hero main text: #f9faf8; 4.8rem, fw: 900;
+hero 2nd text, header link text: #e5e7eb; 1.8rem
+header logo text: #f9faf8; 2.4rem
+
+button color, cta back color: #3882f6;
+information header text: #1f2937; 3.6rem fw: 900;
+
+quote section back color: #e5e7eb;
+quote text: #1f2937; 3.6rem, italic
+
+*/
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 3.6rem 0;
+}
+
+.header {
+  background-color: #1f2937;
+}
+
+.header-logo {
+  font-size: 2.4rem;
+}
+
+.link {
+  display: flex;
+  text-decoration: none;
+  gap: 1.6rem;
+}
+
+.mar-left {
+  margin-left: auto;
+}
+
+.hero-section {
+  padding: 6.4rem 0 3.6rem 0;
+  display: flex;
+  gap: 3.6rem;
+}
+
+.h2-header {
+  color: #f9faf8;
+  font-size: 4.8rem;
+  font-weight: 900;
+}
+
+.p-header {
+  color: #e5e7eb;
+  margin-bottom: 1.6rem;
+}
+
+.btn-cta {
+  border: none;
+  padding: 1.6rem 3.6rem;
+  cursor: pointer;
+  background-color: #3882f6;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.btn-cta:hover,
+.btn-cta:active {
+  background-color: #fff;
+  color: #3882f6;
+}
+
+.hero-img {
+  border: 1px solid #3882f6;
+  width: 35rem;
+}
+
+/* SECTION IMG */
+
+.h3-img {
+  font-size: 3.6rem;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 3.6rem;
+}
+
+.random-img {
+  display: flex;
+  justify-content: space-around;
+  gap: 2.4rem;
+}
+
+.img-list {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.p-dummy {
+  text-align: center;
+}
+
+/* 
+
+main color : #1f2937;
+hero main text: #f9faf8; 4.8rem, fw: 900;
+hero 2nd text, header link text: #e5e7eb; 1.8rem
+header logo text: #f9faf8; 2.4rem
+
+button color, cta back color: #3882f6;
+information header text: #1f2937; 3.6rem fw: 900;
+
+quote section back color: #e5e7eb;
+quote text: #1f2937; 3.6rem, italic
+
+*/
