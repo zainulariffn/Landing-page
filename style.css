@@ -85,6 +85,15 @@ quote text: #1f2937; 3.6rem, italic
   margin-bottom: 1.6rem;
 }
 
+.hero-img img {
+  width: 600px;
+  height: auto;
+}
+
+img {
+  border-radius: 10px;
+}
+
 .btn-cta {
   border: none;
   padding: 1.6rem 3.6rem;
@@ -101,8 +110,7 @@ quote text: #1f2937; 3.6rem, italic
 }
 
 .hero-img {
-  border: 1px solid #3882f6;
-  width: 35rem;
+  flex: 1;
 }
 
 /* SECTION IMG */
@@ -118,6 +126,7 @@ quote text: #1f2937; 3.6rem, italic
   display: flex;
   justify-content: space-around;
   gap: 2.4rem;
+  flex-wrap: wrap;
 }
 
 .img-list {
@@ -125,6 +134,11 @@ quote text: #1f2937; 3.6rem, italic
   flex-flow: column wrap;
   align-items: center;
   gap: 1.6rem;
+}
+
+.img-list img {
+  width: 300px;
+  height: auto;
 }
 
 .p-dummy {
